@@ -5,3 +5,13 @@ label
 {
     text-align: left;
 }
+.alert-danger
+{
+    background-color: red;
+}
+.alert-danger
+{
+    color: white;
+    margin-bottom: 15px;
+    text-align: left;
+}

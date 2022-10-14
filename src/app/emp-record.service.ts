@@ -21,5 +21,13 @@ export class EmpRecordService {
     return this.emp3
   }
 
+  addInfo(info:any)
+  {
+    this.emp1.push(info)
+    this.emp2.push(info)
+    this.emp3.push(info)
+    return this.emp1
+  }
+
   constructor() { }
 }

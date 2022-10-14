@@ -1,4 +1,11 @@
 <p>emp-comp works!</p>
+<form #frm="ngForm" (ngSubmit)="updateInfo(frm)">
+    <div class="">
+        <input type="text" name="location" value="" ngModel>
+        <button type="submit" name="button">add info</button>
+    </div>
+</form>
+
 <button type="button" (click)="getempinfo1()">emp1</button>
 <ul><li *ngFor="let info of info1">{{info}}</li></ul><br>
 <pre></pre>

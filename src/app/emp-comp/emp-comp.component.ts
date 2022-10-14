@@ -23,9 +23,15 @@ export class EmpCompComponent implements OnInit {
     this.info1=this.empservice.getemp3();
   }
 
-  constructor(private empservice:EmpRecordService) { }
+
+    constructor(private empservice:EmpRecordService) { }
 
   ngOnInit(): void {
+  }
+
+  updateInfo(frm:any)
+  {
+    this.empservice.addInfo(frm.value.location)
   }
 
 }

@@ -8,6 +8,11 @@ import { TextcomponentComponent } from './textcomponent/textcomponent.component'
 import { ImagecomponentComponent } from './imagecomponent/imagecomponent.component';
 import { EmpCompComponent } from './emp-comp/emp-comp.component';
 import { FormComponantComponent } from './form-componant/form-componant.component';
+import { BootstrapCompComponent } from './bootstrap-comp/bootstrap-comp.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { IntroComponent } from './intro/intro.component';
+import { CourceComponent } from './cource/cource.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { FormComponantComponent } from './form-componant/form-componant.componen
     TextcomponentComponent,
     ImagecomponentComponent,
     EmpCompComponent,
-    FormComponantComponent
+    FormComponantComponent,
+    BootstrapCompComponent,
+    NavBarComponent,
+    IntroComponent,
+    CourceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

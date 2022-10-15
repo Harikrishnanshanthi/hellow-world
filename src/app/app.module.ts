@@ -13,6 +13,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { IntroComponent } from './intro/intro.component';
 import { CourceComponent } from './cource/cource.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { FooterComponent } from './footer/footer.component';
     NavBarComponent,
     IntroComponent,
     CourceComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ContactComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
